@@ -1,0 +1,209 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://media.giphy.com/media/3jXGgJIxSCWiI/giphy.gif");
+    background-size: cover;
+    margin: 0px;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1) 0%,
+                                                rgba(0, 0, 0, 0.9) 25%,
+                                                rgba(0, 0, 0, 0.6) 50%,
+                                                rgba(0, 0, 0, 0.4) 75%,
+                                                rgba(0, 0, 0, 0.2) 100%);
+}
+
+.games {
+    position: fixed;
+    top: 25%;
+    left: 20px;
+    height: 40%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.logo {
+    position: fixed;
+    margin: 20px;
+    margin-left: 20px;
+    border-radius: 50%;
+    /* не забываем о кроссбраузерности */
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+}
+
+.logo:hover {
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.img_logo {
+    width: 25%;
+    transition: all .2s ease-in-out;
+}
+
+.img_logo:hover { transform: scale(1.1); }
+
+.menu {
+    position: fixed;
+    top: -13px;
+    left: -35px;
+}
+
+.sub-menu {
+    margin-left: 80px;
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    transition: all 0.5s ease-in;
+}
+
+.img_dropdown {
+    width: 120px;
+}
+
+img#twitch {
+    width: 60px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+img#inst {
+    width: 70px;
+    margin-left: 26px;
+}
+
+svg#MonValley {
+    width: 100px;
+    height: 100px;
+}
+
+p {font-family: 'Open Sans', sans-serif;
+    color:#aaa;}
+    
+    .center {
+      text-align: center;
+      position: absolute;
+      bottom: 0px;
+    }
+    
+    #MonValley #BrightDoor {
+      transition: all 0.3s ease-in-out;
+      opacity:0;
+    }
+    
+    #MonValley:hover #BrightDoor {
+      opacity:1;
+      
+    }
+    #MonValley #Step1 {
+      transition: all .65s ease-in-out;
+      transform: translate(0px, 132px);
+    }
+    #MonValley:hover #Step1 {
+      transform: translate(0px, 0px);
+    }
+    
+    #MonValley #Step2 {
+      transition: all .6s ease-in-out;
+      transform: translate(0px, 132px);
+    }
+    #MonValley:hover #Step2 {
+      transform: translate(0px, 0px);
+    }
+    #MonValley #Step3 {
+      transition: all .55s ease-in-out;
+      transform: translate(0px, 132px);
+    }
+    #MonValley:hover #Step3 {
+      transform: translate(0px, 0px);
+    }
+    #MonValley #Step4 {
+      transition: all .5s ease-in-out;
+      transform: translate(0px, 132px);
+    }
+    #MonValley:hover #Step4 {
+      transform: translate(0px, 0px);
+    }
+    #MonValley #Step5 {
+      transition: all .45s ease-in-out;
+      transform: translate(0px, 132px);
+    }
+    #MonValley:hover #Step5 {
+      transform: translate(0px, 0px);
+    }
+    #MonValley #Step6 {
+      transition: all .4s ease-in-out;
+      transform: translate(0px, 132px);
+    }
+    #MonValley:hover #Step6 {
+      transform: translate(0px, 0px);
+    }
+    #MonValley #Step7 {
+      transition: all .35s ease-in-out;
+      transform: translate(0px, 132px);
+    }
+    #MonValley:hover #Step7 {
+      transform: translate(0px, 0px);
+    }
+    #MonValley #Step8 {
+      transition: all .3s ease-in-out;
+      transform: translate(0px, 132px);
+    }
+    #MonValley:hover #Step8 {
+      transform: translate(0px, 0px);
+    }
+    #MonValley #Step9 {
+      transition: all .25s ease-in-out;
+      transform: translate(0px, 132px);
+    }
+    #MonValley:hover #Step9 {
+      transform: translate(0px, 0px);
+    }
+    #MonValley #Step10 {
+      transition: all .2s ease-in-out;
+      transform: translate(0px, 132px);
+    }
+    #MonValley:hover #Step10 {
+      transform: translate(0px, 0px);
+    }
+    #MonValley #Step11 {
+      transition: all .15s ease-in-out;
+      transform: translate(0px, 132px);
+    }
+    #MonValley:hover #Step11 {
+      transform: translate(0px, 0px);
+    }
+    #MonValley #Step12 {
+      transition: all .1s ease-in-out;
+      transform: translate(0px, 132px);
+    }
+    #MonValley:hover #Step12 {
+      transform: translate(0px, 0px);
+    }
+    #MonValley #Step13 {
+      transition: all .05s ease-in-out;
+      transform: translate(0px, 132px);
+    }
+    #MonValley:hover #Step13 {
+      transform: translate(0px, 0px);
+    }
