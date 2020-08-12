@@ -1,5 +1,5 @@
 # stream page
 
-It's just a demo page for streamer with my custom design.
+It's just a demo page for a streamer with my custom design.
 
-![stream-page](/src/readme.gif)
+![stream-page](/source/readme.gif)
